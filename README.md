@@ -37,9 +37,12 @@ total_attempts es usado para realizar el modelo, y es la sumatoria de los attemp
 Tabla
 atm_login_detection
 Con los campos :
-customer_id
+customer_id 
 operation_type
 count_operation_type
 count_nip_attempt
 count_op_secs
+
+Al proponer las tablas de esta forma:
+Se captura los intentos de cada manera disponible y al lograr entrar se considera un registro.
 
