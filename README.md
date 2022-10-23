@@ -3,8 +3,6 @@
 
 Los Cracks queremos facilitar la banca a quienes más lo necesitan. Las propuestas de login que tenemos priorizan la facilidad de implementación para trabajar con lo que ya tenemos a nivel banco y atender lo más rápido posible a nuestros apreciados clientes que utilizan nuestros diferentes canales
 
-Para la parte de identificación haremos modelos de clústering con la transaccionalidad del cliente, probando aproximaciones no supervisadas
-
 Tal y como lo propusieron los anfitriones, nuestro trabajo se divide en dos partes: Un conjunto de propuestas enfocadas al inicio de sesión en las que también aplicaremos métodos de machine learning entrenados con datasets que estamos diseñando
 
 Y otro set de propuestas están enfocadas a inferir si un cliente tiene algún tipo de discapacidad, estamos trabajando con los datos que proporcionaron los anfitriones y otros que creemos que los complementan. Como ya mencionamos, trabajaremos con métodos de machine learning supervisados y no supervisados. Como output daremos una probabilidad de que cada cliente tenga los tipos de discapacidad mencionados
@@ -44,5 +42,6 @@ count_nip_attempt
 count_op_secs
 
 Al proponer las tablas de esta forma:
-Se captura los intentos de cada manera disponible y al lograr entrar se considera un registro.
+Se captura los intentos de cada manera disponible y al lograr entrar se considera un registro. Esta aproximacion que toma los tiempos de decision nos brinda mayor seguridad ya que detectamos clientes que tardan mas de lo habitual sin importar a nombre de quien este operando. Consideramos que un modelo que se fije solo en las compras de comercio se exponen a casos donde un cliente compra a nombre de otras personas (los cuales consideramos nos darian muchos falsos positivos). 
+Usamos algoritmos de logica difusa para ubicar a clientes por su nombre en base a padrones gubernamentales.
 
