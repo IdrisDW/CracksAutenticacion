@@ -45,3 +45,4 @@ Al proponer las tablas de esta forma:
 Se captura los intentos de cada manera disponible y al lograr entrar se considera un registro. Esta aproximacion que toma los tiempos de decision nos brinda mayor seguridad ya que detectamos clientes que tardan mas de lo habitual sin importar a nombre de quien este operando. Consideramos que un modelo que se fije solo en las compras de comercio se exponen a casos donde un cliente compra a nombre de otras personas (los cuales consideramos nos darian muchos falsos positivos). 
 Usamos algoritmos de logica difusa para ubicar a clientes por su nombre en base a padrones gubernamentales.
 
+https://drive.google.com/drive/u/4/folders/1cFe0aXLyE0AkXFInuo3-6ivkfol7oa_c
