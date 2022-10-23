@@ -11,7 +11,7 @@ Y otro set de propuestas están enfocadas a inferir si un cliente tiene algún t
 
 Estamos usando python y sus bibliotecas de machine learning más widely used, métodos de clusterización y estamos complementando con datos de internet para nuestros conjuntos de datos
 
-Como equipo queremeos lograr que nuestras propuestas sean factibles y sencillas de implementar, para lograr el cometido
+Como equipo queremos lograr que nuestras propuestas sean factibles y sencillas de implementar, para lograr el cometido
 de poner al alcance de todos las oportunidades de esta nueva era , es por eso que realizamos una 
 reestructuracion de las interfaces de la app pensando en las necesidades especificas de las personas con 
 capacidades distintas y proponiendo mejoras  para estar mas cerca los clientes, asi como
