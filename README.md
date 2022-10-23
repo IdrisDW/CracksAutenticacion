@@ -1,6 +1,6 @@
 # Autenticacion para todos
 
-##Descripción general
+#Descripción general
 
 Autenticación para todos Equipo “Los Cracks”
 
@@ -8,7 +8,7 @@ Los Cracks queremos facilitar la banca a quienes más lo necesitan. Las propuest
 
 Para la parte de identificación haremos modelos de clústering con la transaccionalidad del cliente, probando aproximaciones no supervisadas
 
-##Descripción técnica de la solución
+#Descripción técnica de la solución
 Tal y como lo propusieron los anfitriones, nuestro trabajo se divide en dos partes: Un conjunto de propuestas enfocadas al inicio de sesión en las que también aplicaremos métodos de machine learning entrenados con datasets que estamos diseñando
 
 Y otro set de propuestas están enfocadas a inferir si un cliente tiene algún tipo de discapacidad, estamos trabajando con los datos que proporcionaron los anfitriones y otros que creemos que los complementan. Como ya mencionamos, trabajaremos con métodos de machine learning supervisados y no supervisados. Como output daremos una probabilidad de que cada cliente tenga los tipos de discapacidad mencionados
