@@ -17,4 +17,29 @@ reestructuracion de las interfaces de la app pensando en las necesidades especif
 capacidades distintas y proponiendo mejoras  para estar mas cerca los clientes, asi como
 modelos para analizar los datos de los cliente y poder ofrecer soluciones.
 
+Propusimos dos tablas para realizar los modelos que nos permiten reconocer a los clientes que por su tiempo de realizar el logueo a la app o de entrar a un ATM
+tienen probabilidades de tener alguna discapacidad o ser adulto mayor:
+
+Tabla:
+app_login_detection
+Con los campos : 
+customer_id
+age
+seconds_to_successful_login
+attempts_password
+attempts_fingerprint
+attempts_voice
+attempts_face
+login_type
+
+total_attempts es usado para realizar el modelo, y es la sumatoria de los attempts de logeo de las distintas formas disponibles (password, fingerprint, voice,face)
+
+Tabla
+atm_login_detection
+Con los campos :
+customer_id
+operation_type
+count_operation_type
+count_nip_attempt
+count_op_secs
 
